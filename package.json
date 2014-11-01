@@ -1,0 +1,28 @@
+{
+  "name": "myact-provider-rss",
+  "version": "0.1.0",
+  "description": "A Myact provider for retrieving an RSS feed on an interval",
+  "main": "index.js",
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "url": "http://www.andrewduthie.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^0.19.2",
+    "lodash": "^2.4.1",
+    "myact-provider": "git://github.com/myact/myact-provider",
+    "myact-stream-transform": "git://github.com/myact/myact-stream-transform",
+    "request": "^2.45.0"
+  },
+  "myact-options": {
+    "fields": [
+      {
+        "name": "url",
+        "label": "URL",
+        "type": "text"
+      }
+    ]
+  }
+}
