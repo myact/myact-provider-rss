@@ -3,13 +3,13 @@ var FeedParser = require( 'feedparser' ),
     MyactStreamTransform = require( 'myact-stream-transform' ),
     Provider = require( 'myact-provider' );
 
-var RssProvider = module.exports = function( options ) {
+var MyactRSSProvider = module.exports = function( options ) {
     Provider.apply( this, arguments );
 };
 
-RssProvider.prototype = Object.create( Provider.prototype );
+MyactRSSProvider.prototype = Object.create( Provider.prototype );
 
-RssProvider.prototype.invoke = function() {
+MyactRSSProvider.prototype.invoke = function() {
     var config = this.options.agent.config,
         self = this;
 
