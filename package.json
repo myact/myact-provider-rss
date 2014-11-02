@@ -25,7 +25,8 @@
       {
         "name": "url",
         "label": "URL",
-        "type": "text"
+        "type": "text",
+        "required": true
       }
     ]
   },
