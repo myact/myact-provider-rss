@@ -2,6 +2,7 @@
   "name": "myact-provider-rss",
   "version": "0.1.0",
   "description": "A Myact provider for retrieving an RSS feed on an interval",
+  "keywords": [ "myact-provider" ],
   "main": "index.js",
   "author": {
     "name": "Andrew Duthie",
