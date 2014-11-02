@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "feedparser": "^0.19.2",
-    "lodash": "^2.4.1",
     "myact-provider": "git://github.com/myact/myact-provider",
     "myact-stream-transform": "git://github.com/myact/myact-stream-transform",
     "request": "^2.45.0"
