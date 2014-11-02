@@ -9,6 +9,10 @@
     "url": "http://www.andrewduthie.com/"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myact/myact-provider-rss.git"
+  },
   "dependencies": {
     "feedparser": "^0.19.2",
     "lodash": "^2.4.1",
